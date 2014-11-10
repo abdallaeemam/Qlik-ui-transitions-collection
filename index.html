@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Qlik-UI styles and transitions collection</title>
+		<meta name="description" content="Tab Styles Inspiration: A small collection of styles for tabs" />
+		<meta name="keywords" content="tabs, inspiration, web design, css, modern, effects, svg" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/tabs.css" />
+		<link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
+        
+  		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<svg class="hidden">
+			<defs>
+				<path id="tabshape" d="M80,60C34,53.5,64.417,0,0,0v60H80z"/>
+			</defs>
+		</svg>
+		<div class="container">
+			<!-- Top Navigation -->
+			
+			<header class="codrops-header">
+				<h1><img src="qlik-cs-logo.png" alt="Qlik UI home" height="100" width="150"> <span>A collection of UI styles and transitions </span></h1>
+				<p class="support">Your browser does not support <strong>flexbox</strong>! <br />Please view this demo with a <strong>modern browser</strong>.</p>
+				
+			</header>
+			
+			<section>
+				<div class="tabs tabs-style-linebox">
+					<nav>
+						<ul>
+							<li><a href="#section-iconbox-1"><span><img src="home.svg" alt="Qlik UI home" height="50" width="50"></span></a></li>
+							<li><a href="assets/progress-button-styles/index.html"><span>Progress Buttons</span></a></li>
+							<li><a href="assets/CreativeButtons/index.html"><span>Creative Buttons</span></a></li>
+							<li><a href="assets/OffCanvasMenuEffects/index.html" ><span>Of Canvas Menus</span></a></li>
+							<li><a href="assets/HoverEffectIdeas/index.html" ><span>Hover Over Image</span></a></li>
+							
+							
+						</ul>
+						
+						
+					</nav>
+					 
+					
+					
+					
+					
+				</div><!-- /tabs -->
+				
+				
+			</section>
+			
+			
+			
+			
+			
+			
+			
+			
+		</div><!-- /container -->
+		<script src="js/cbpFWTabs.js"></script>
+		<script>
+			(function() {
+
+				[].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+					new CBPFWTabs( el );
+				});
+
+			})();
+		</script>
+	</body>
+</html>
