@@ -1,0 +1,2 @@
+Qlik-ui-transitions-collection
+==============================
